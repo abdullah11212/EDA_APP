@@ -14,11 +14,11 @@ total_contry=helper.countryplot(countries)
 st.plotly_chart(total_contry)
 
 #EXP Plot
-st.header('Avrege exp by country')
+st.header('Avrege Experience by Salary')
 total_exp=helper.expyplot(countries)
 st.plotly_chart(total_exp)
 
 #AGE Plot
-st.header('Avrege Age by country')
+st.header('Avrege Age by Salary')
 total_Age=helper.Ageyplot(countries)
 st.plotly_chart(total_Age)
